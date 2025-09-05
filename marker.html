@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/n5ro/aframe-extras@latest/dist/aframe-extras.loaders.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/AR-js-org/AR.js@3.4.3/aframe/build/aframe-ar.min.js"></script>
+</head>
+
+<body>
+  <a-scene embedded arjs="trackingMethod: best;">
+    <a-marker preset="hiro">
+      <a-box src="flower.png"
+        position="0 .5 0" rotation="-45 0 0">
+      </a-box>
+    </a-marker>
+    <a-entity camera></a-entity>
+  </a-scene>
+</body>
+
+</html>

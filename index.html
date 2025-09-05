@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohit Mattoo | Portfolio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; background: #0d1117; color: #e6edf3; line-height: 1.6; }
+    header { background: #161b22; padding: 20px; text-align: center; position: sticky; top: 0; z-index: 1000; }
+    header h1 { font-size: 2.2rem; color: #58a6ff; }
+    header p { font-size: 1.1rem; }
+
+    nav { margin-top: 10px; }
+    nav a { color: #e6edf3; margin: 0 15px; text-decoration: none; font-weight: bold; transition: color 0.3s; }
+    nav a:hover { color: #58a6ff; }
+
+    section { padding: 50px 20px; max-width: 1000px; margin: auto; }
+    h2 { color: #58a6ff; margin-bottom: 20px; }
+
+    .skills, .projects, .education, .contact { display: grid; gap: 20px; }
+    .skill-item, .project-item, .edu-item { background: #161b22; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); transition: transform 0.3s; }
+    .skill-item:hover, .project-item:hover, .edu-item:hover { transform: translateY(-5px); }
+
+    footer { background: #161b22; text-align: center; padding: 20px; margin-top: 40px; }
+    footer a { color: #58a6ff; text-decoration: none; margin: 0 10px; }
+
+    /* Smooth Scroll */
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mohit Mattoo</h1>
+    <p>Aspiring B.Tech CSE Engineer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate Computer Science Engineering student with interests in web development, cybersecurity, and problem-solving using C++, Java, and Data Structures. I enjoy building projects that challenge my skills and expand my knowledge.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill-item">Web Development</div>
+      <div class="skill-item">Cyber Security</div>
+      <div class="skill-item">Java</div>
+      <div class="skill-item">C++</div>
+      <div class="skill-item">C</div>
+      <div class="skill-item">DSA with C++</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-item">
+        <h3>Man in the Middle Attack</h3>
+        <p>A cybersecurity project demonstrating MITM concepts and how attackers can intercept communication between two parties.</p>
+      </div>
+      <div class="project-item">
+        <h3>Snake and Ladder Game</h3>
+        <p>A fun implementation of the classic board game using programming concepts.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="education">
+      <div class="edu-item">
+        <h3>Anees School</h3>
+        <p>Class 10th: 93.2%</p>
+        <p>Class 12th (Super Med): 79%</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact">
+      <p><strong>Phone:</strong> 7986439017</p>
+      <p><strong>Email:</strong> <a href="mailto:mohitmattoo05@gmail.com">mohitmattoo05@gmail.com</a></p>
+      <p><a href="https://www.linkedin.com/in/mohit-mattoo-005900298" target="_blank">LinkedIn</a> | <a href="https://github.com/mohitma2o" target="_blank">GitHub</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Mohit Mattoo | Built with ❤️ using HTML, CSS, JS</p>
+  </footer>
+
+  <script>
+    // Add a simple interactive greeting
+    window.addEventListener('load', () => {
+      alert("Welcome to Mohit's Portfolio!");
+    });
+  </script>
+</body>
+</html>
